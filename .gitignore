@@ -1,0 +1,29 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos y resultados (no subir archivos de medición ni reportes generados)
+*.csv
+resultados/
+
+# Streamlit
+.streamlit/
+
+# Editores y OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
