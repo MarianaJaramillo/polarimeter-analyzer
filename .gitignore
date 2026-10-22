@@ -1,4 +1,4 @@
-# Entorno virtual
+# Virtual environment
 venv/
 .venv/
 env/
@@ -15,15 +15,16 @@ build/
 # Jupyter
 .ipynb_checkpoints/
 
-# Datos y resultados (no subir archivos de medición ni reportes generados)
+# Data and generated results (do not commit measurement files or generated reports)
 *.csv
-resultados/
+polarimeter_results/
 
 # Streamlit
 .streamlit/
 
-# Editores y OS
+# Editors and OS
 .vscode/
 .idea/
 *.DS_Store
 Thumbs.db
+
